@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import './containers/ScreeningsBox.js'
+import ScreeningsBox from './containers/ScreeningsBox.js'
 
 
 class App extends Component {
