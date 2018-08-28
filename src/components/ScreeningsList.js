@@ -4,7 +4,7 @@ import Screening from './Screening.js';
 class ScreeningsList extends React.Component {
   render() {
     const screeningComponents = this.props.screenings.map((screening) => {
-      return (<Screening author={screening.author}
+      return (<Screening title={screening.title}
           key={screening.id}
         >{screening.text}</Screening>);
     });
@@ -17,4 +17,4 @@ class ScreeningsList extends React.Component {
   }
 }
 
-export default ScreeningList;
+export default ScreeningsList;
